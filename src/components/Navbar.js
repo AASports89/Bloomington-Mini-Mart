@@ -76,15 +76,15 @@ export default function Navbar() {
           </a>
           <a id='resources' data-aos="flip-right" className="accordion nav-link active" href="/resources">
             <i id='resources-icon' className="fa-brands fa-sourcetree"></i>
-            Resources
+            Inventory
           </a>
           <a id='testimonials' data-aos="flip-left" className="accordion nav-link active" href="/testimonials">
             <i id='testimonials-icon' className="fa-regular fa-comment-dots"></i>
-            Testimonials
+            Delivery
           </a>
             <a data-aos="flip-right" id='login' className="accordion nav-link active" onClick={showLogin} href='#'>
               <i id='login-icon' className="fa-solid fa-user"></i>
-                    Log In
+                  Log In
             </a>
             <a data-aos="flip-left" id='signup' className="accordion nav-link active" onClick={showSignup} href='#'>
               <i id='signup-icon' className="fa-solid fa-user-plus"></i>
@@ -106,7 +106,7 @@ export default function Navbar() {
                             <input type="text" id="inputName" value={name} onChange={handleNameChange} className="form-control" placeholder="Name" required autoFocus />
                         </div>
                         <div className='row mx-auto' id='signup_input'>
-                            <label htmlFor="inputEmail" className="sr-only"><i class="fa-solid fa-square-envelope"></i> Email address</label>
+                            <label htmlFor="inputEmail" className="sr-only"><i class="fa-solid fa-square-envelope"></i> E-mail address</label>
                             <input type="email" id="inputEmail" value={email} onChange={handleEmailChange} className="form-control" placeholder="Email address" required autoFocus />
                         </div>
                         <div className='row mx-auto' id='signup_input'>
@@ -133,7 +133,7 @@ export default function Navbar() {
                         </Modal.Header>
                     <Modal.Body>
                     <div className='row justify-content-center'>
-                        <label htmlFor="inputEmail" className="sr-only"><i class="fa-solid fa-square-envelope"></i> Email Address</label>
+                        <label htmlFor="inputEmail" className="sr-only"><i class="fa-solid fa-square-envelope"></i> E-mail Address</label>
                         <input type="email" id="inputEmail" value={email} onChange={handleEmailChange} className="form-control" placeholder="Email address" required autoFocus />
                     </div>
                     <div className='row justify-content-center'>

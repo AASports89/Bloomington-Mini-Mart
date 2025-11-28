@@ -28,10 +28,10 @@ function App() {
         <div className="card" id="purpose">
             <img id="tips_icon" src={tips_icon} class="card-img-top mx-auto" alt="Quick Tips" />
               <div className="card-body">
-                <h5 className="card-title" id='tips_title'>Tip of the Day</h5>
-                  <p className="card-text" id='tips_text'>Pick a goal at the start of your day, with no special attention to the size or importance.</p>
-                  <p className="card-text" id='tips_text'>By the day's end, make sure to accomplish the goal and view it as a small victory.</p>
-                  <p className="card-text" id='tips_text'>Small victories are a great way to boost your morale and create the drive to increase the frquency of setting goals.</p>
+                <h5 className="card-title" id='tips_title'>Spirits</h5>
+                  <p className="card-text" id='tips_text'>Don Julio® Añejo Tequila (750mL)</p>
+                  <p className="card-text" id='tips_text'>Macallan® 12 Year Single Malt Scotch Whisky (750mL)</p>
+                  <p className="card-text" id='tips_text'>Fortaleza® Añejo (750mL)</p>
                 
               </div>
           </div>
@@ -40,8 +40,8 @@ function App() {
     <div className="card" id="purpose">
             <img id="purpose_logo" src={purpose_logo} class="card-img-top mx-auto" alt="Purpose Over Pleasure" />
               <div className="card-body">
-                <h5 className="card-title" id='purpose_title'>Purpose Over Pleasure™</h5>
-                  <p className="card-text" id='purpose_text'>Purpose Over Pleasure™ has been a way to share my journey through life with the people around me whether friends, family or complete strangers.</p>
+                <h5 className="card-title" id='purpose_title'>Costco Roscoe's™ Mission</h5>
+                  <p className="card-text" id='purpose_text'>To supply the best quality spirits & wine.</p>
                     <a id="subscribe" href="/" className="btn btn-primary">Subscribe</a>
               </div>
           </div>
@@ -54,10 +54,11 @@ function App() {
   </div>
 
   <div className="row mx-auto" id='embed'>
-  <div id='embed-1'  className="col embed-responsive embed-responsive-16by9 col-6">
-        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/L-iepu3EtyE?si=KzkBlzIp30dPPNbV" allowfullscreen title='Aerials - System Of A Down'></iframe>
+  <div id='embed-1' className="col embed-responsive embed-responsive-16by9 col-6">
+        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/mANvg9R1xeI?si=PQFGdJHjPF6KIfvW" allowfullscreen title="WGTF - Gunna feat. Burna Boy"></iframe>
     </div>
     <div id='embed-1' className="col embed-responsive embed-responsive-16by9 col-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HiCxoDeo0hc?si=-I6CpQwxv36N4LW_" allowfullscreen title="Him All Along - Gunna"></iframe>
         <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/_CL6n0FJZpk?si=9tDWj735vike9qRE" allowfullscreen title='Seven Nation Army - The White Stripes'></iframe>
       </div>
   </div>
