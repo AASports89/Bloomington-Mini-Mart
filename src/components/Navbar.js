@@ -50,10 +50,6 @@ export default function Navbar() {
       setName(event.target.value)
   }
 
-  const [signup, setSignup] = useState(false);
-  const closeSignup = () => setSignup(false);
-  const showSignup = () => setSignup(true);
-
   const [login, setLogin] = useState(false);
   const closeLogin = () => setLogin(false);
   const showLogin = () => setLogin(true);
@@ -61,7 +57,7 @@ export default function Navbar() {
     return (
 		<div className="col-12">
       <header id='header' className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className='img-card-overlay' id="logo-over" href='https://aasports89.github.io/Personal-Coach/'>
+        <a className='img-card-overlay' id="logo-over" href='https://aasports89.github.io/Costco-Roscoes-Liquor'>
           <img id='logo' src={logo} className="card-img" alt="logo"  data-aos="slide-right"/>
         </a>
         <div className="col-10">
@@ -70,59 +66,17 @@ export default function Navbar() {
             <i id='home-icon' className="fa-solid fa-house"></i> 
             Home
           </a>   
-          <a id='vault' data-aos="flip-left" className="accordion nav-link active" href="/vault">
-            <i id="vault-icon"  className="fa-regular fa-life-ring"></i>
-            Vault
-          </a>
           <a id='resources' data-aos="flip-right" className="accordion nav-link active" href="/resources">
             <i id='resources-icon' className="fa-brands fa-sourcetree"></i>
             Inventory
           </a>
-          <a id='testimonials' data-aos="flip-left" className="accordion nav-link active" href="/testimonials">
-            <i id='testimonials-icon' className="fa-regular fa-comment-dots"></i>
-            Delivery
-          </a>
-            <a data-aos="flip-right" id='login' className="accordion nav-link active" onClick={showLogin} href='#'>
+          <a data-aos="flip-right" id='login' className="accordion nav-link active" onClick={showLogin} href='#'>
               <i id='login-icon' className="fa-solid fa-user"></i>
                   Log In
-            </a>
-            <a data-aos="flip-left" id='signup' className="accordion nav-link active" onClick={showSignup} href='#'>
-              <i id='signup-icon' className="fa-solid fa-user-plus"></i>
-                  Sign Up
-             </a>
+          </a>
           </nav>
           </div>
         </header>
-        <Modal variant="modal fade" show={signup} onHide={closeSignup}>
-          <form id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" onSubmit={handleSubmit}>
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <Modal.Header>
-                            <h2 id='signupHeader' className="modal-title mx-auto"><i className="fa-solid fa-user-plus"></i> Create Account </h2>
-                        </Modal.Header>
-                    <Modal.Body>
-                        <div className='row mx-auto' id='signup_input'>
-                            <label htmlFor="inputEmail" className="sr-only"> Name</label>
-                            <input type="text" id="inputName" value={name} onChange={handleNameChange} className="form-control" placeholder="Name" required autoFocus />
-                        </div>
-                        <div className='row mx-auto' id='signup_input'>
-                            <label htmlFor="inputEmail" className="sr-only"><i class="fa-solid fa-square-envelope"></i> E-mail address</label>
-                            <input type="email" id="inputEmail" value={email} onChange={handleEmailChange} className="form-control" placeholder="Email address" required autoFocus />
-                        </div>
-                        <div className='row mx-auto' id='signup_input'>
-                            <label htmlFor="inputPassword" className="sr-only"><i class="fa-solid fa-key"></i> Password</label>
-                            <input type="password" id="inputPassword" value={password} onChange={handlePasswordChange} className="form-control" placeholder="Password" required autoFocus />
-                        </div>
-                    </Modal.Body>
-                    <Modal.Footer>
-                        <Button id='signup-btn' variant="primary mx-auto" onClick={closeSignup}>Sign Up</Button>
-                        <Button id='back-btn' variant="secondary mx-auto" onClick={closeSignup}>Cancel</Button>
-                    </Modal.Footer>
-                    {error && <div className='error'>{error}</div>}
-            </div>
-        </div>
-    </form>
-  </Modal>
 
   <Modal variant="modal fade" show={login} onHide={closeLogin}>
           <form id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" onSubmit={handleSubmit}>
@@ -143,7 +97,6 @@ export default function Navbar() {
                     </Modal.Body>
                     <Modal.Footer>
                         <Button id='signup-btn' variant="primary mx-auto" onClick={closeLogin}>Log In</Button>
-                        <Button id='signup-btn' variant="primary mx-auto" onClick={showSignup}>Sign Up</Button>
                         <Button id='back-btn' variant="primary mx-auto" onClick={closeLogin}>Cancel</Button>
                     </Modal.Footer>
                     {error && <div className='error'>{error}</div>}
@@ -152,4 +105,4 @@ export default function Navbar() {
     </form>
   </Modal>
 </div>
-    )};
+)};

@@ -1,5 +1,5 @@
 {
-  "name": "Costco-Roscoes-Liquor",
+  "name": "costco-roscoes-liquor",
   "version": "5.0.0",
   "homepage": "https://aasports89.github.io/Costco-Roscoes-Liquor/",
   "private": true,
@@ -8,12 +8,15 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.21",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
     "animate.css": "^3.7.0",
     "aos": "^2.3.4",
     "api_client": "^0.0.2",
     "apollo-server-express": "^3.6.2",
     "bcrypt": "^5.0.0",
-    "boostrap": "^2.0.0",
     "bootstrap": "^5.1.3",
     "cloudinary": "^2.0.3",
     "crypto-browserify": "^3.12.0",
@@ -27,14 +30,13 @@
     "mongoose": "^6.1.8",
     "querystring-es3": "^0.2.1",
     "react": "^17.0.2",
-    "react-bootstrap": "^2.10.4",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.11.0",
     "react-router-dom": "^6.22.3",
-    "react-scripts": "^0.0.0",
-    "scripts": "^0.1.0",
+    "react-scripts": "^5.0.1",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
+    "typescript": "^4.5.4",
     "url": "^0.11.3",
     "web-vitals": "^2.1.3",
     "wowjs": "^1.1.3"
@@ -66,9 +68,20 @@
     ]
   },
   "devDependencies": {
-    "aos": "^2.3.4",
+    "@types/aos": "^3.0.7",
     "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^6.1.1",
     "nodemon": "^2.0.3"
+  },
+  "description": "Liquor store / gas station app.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AASports89/Costco-Roscoes-Liquor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AASports89/Costco-Roscoes-Liquor/issues"
   }
 }

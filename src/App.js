@@ -1,13 +1,17 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import favicon from './logo.svg';
 import './App.css';
 import Aos from 'aos';
-import CountDown from './components/CountDown';
-import purpose_logo from '../src/images/purpose_logo.svg';
-import tips_icon from '../src/images/tips_icon.svg';
-import vault_icon from '../src/images/vault_icon.svg';
+// import CountDown from './components/CountDown';
+      // <div>
+      // <Routes>        
+      //   <Route path="/"  element={<CountDown />}/>
+      // </Routes>
+      // </div>
+import spirits from '../src/images/spirits.svg';
+import spirits2 from '../src/images/spirits2.svg';
 
 function App() {
 
@@ -17,16 +21,11 @@ function App() {
   return(
     <div className="container-fluid">
      <Navbar />
-      <div>
-      <Routes>        
-        <Route path="/"  element={<CountDown />}/>
-      </Routes>
-      </div>
-      
+
       <div className="row justify content center" id='purpose_row'>
         <div className="col">
-        <div className="card" id="purpose">
-            <img id="tips_icon" src={tips_icon} class="card-img-top mx-auto" alt="Quick Tips" />
+          <div className="card" id="purpose">
+            <img id="tips_icon" src={spirits} class="card-img-top mx-auto" alt="Quick Tips" />
               <div className="card-body">
                 <h5 className="card-title" id='tips_title'>Spirits</h5>
                   <p className="card-text" id='tips_text'>Don Julio® Añejo Tequila (750mL)</p>
@@ -35,33 +34,21 @@ function App() {
                 
               </div>
           </div>
-    </div>
+        </div>
     <div className="col">
-    <div className="card" id="purpose">
-            <img id="purpose_logo" src={purpose_logo} class="card-img-top mx-auto" alt="Purpose Over Pleasure" />
+      <div className="card" id="purpose">
+          <img id="purpose_logo" src={spirits2} class="card-img-top mx-auto" alt="Purpose Over Pleasure" />
               <div className="card-body">
                 <h5 className="card-title" id='purpose_title'>Costco Roscoe's™ Mission</h5>
-                  <p className="card-text" id='purpose_text'>To supply the best quality spirits & wine.</p>
-                    <a id="subscribe" href="/" className="btn btn-primary">Subscribe</a>
+                  <p className="card-text" id='purpose_text'>To supply premium fuel & liquor.</p>
               </div>
-          </div>
-    </div>
-    <div className="col" id='vault_col'>
-    <img id="vault_icon" src={vault_icon} class="card-img-top mx-auto" alt="Vault Countdown" />
-      <CountDown />
-
-    </div>
-  </div>
-
-  <div className="row mx-auto" id='embed'>
-  <div id='embed-1' className="col embed-responsive embed-responsive-16by9 col-6">
-        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/mANvg9R1xeI?si=PQFGdJHjPF6KIfvW" allowfullscreen title="WGTF - Gunna feat. Burna Boy"></iframe>
-    </div>
-    <div id='embed-1' className="col embed-responsive embed-responsive-16by9 col-6">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/HiCxoDeo0hc?si=-I6CpQwxv36N4LW_" allowfullscreen title="Him All Along - Gunna"></iframe>
-        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/_CL6n0FJZpk?si=9tDWj735vike9qRE" allowfullscreen title='Seven Nation Army - The White Stripes'></iframe>
       </div>
+    </div>
   </div>
+
+    <div id='embed-1' className="col embed-responsive embed-responsive-16by9 col-6">
+        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/3b4lo3lV4bg?si=E1euhP6tfgUoOUwI" allowfullscreen title="WGTF - Gunna feat. Burna Boy"></iframe>
+    </div>
 
 <div className="fixed-bottom">
 <footer id='footer' className="navbar navbar-expand-lg navbar-light bg-light">
