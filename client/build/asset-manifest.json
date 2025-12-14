@@ -1,24 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.160b8bc7.chunk.css",
-    "main.js": "/static/js/main.d7cbf5c1.chunk.js",
-    "main.js.map": "/static/js/main.d7cbf5c1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0688f379.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0688f379.js.map",
-    "static/css/2.0dfc12fd.chunk.css": "/static/css/2.0dfc12fd.chunk.css",
-    "static/js/2.c64de63b.chunk.js": "/static/js/2.c64de63b.chunk.js",
-    "static/js/2.c64de63b.chunk.js.map": "/static/js/2.c64de63b.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.0dfc12fd.chunk.css.map": "/static/css/2.0dfc12fd.chunk.css.map",
-    "static/css/main.160b8bc7.chunk.css.map": "/static/css/main.160b8bc7.chunk.css.map",
-    "static/js/2.c64de63b.chunk.js.LICENSE.txt": "/static/js/2.c64de63b.chunk.js.LICENSE.txt",
-    "static/media/logo.c9f654a4.svg": "/static/media/logo.c9f654a4.svg"
+    "main.css": "/Costco-Roscoes-Liquor/static/css/main.74546c17.css",
+    "main.js": "/Costco-Roscoes-Liquor/static/js/main.a1e81506.js",
+    "static/media/logo.svg": "/Costco-Roscoes-Liquor/static/media/logo.c9f654a4c27d62f0d992d8722cf6365b.svg",
+    "index.html": "/Costco-Roscoes-Liquor/index.html",
+    "main.74546c17.css.map": "/Costco-Roscoes-Liquor/static/css/main.74546c17.css.map",
+    "main.a1e81506.js.map": "/Costco-Roscoes-Liquor/static/js/main.a1e81506.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0688f379.js",
-    "static/css/2.0dfc12fd.chunk.css",
-    "static/js/2.c64de63b.chunk.js",
-    "static/css/main.160b8bc7.chunk.css",
-    "static/js/main.d7cbf5c1.chunk.js"
+    "static/css/main.74546c17.css",
+    "static/js/main.a1e81506.js"
   ]
 }
