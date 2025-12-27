@@ -1,0 +1,528 @@
+.container-fluid {
+  text-align: center;
+}
+
+#signupHeader {
+  text-align: center;
+  box-shadow: none;
+  color: whitesmoke;
+}
+
+.modal-content {
+  border: none;
+  background-color: transparent;
+}
+
+.modal-body {
+  margin-top: 5%;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#btn-home {
+  width: 25%;
+  border: none;
+  border-radius: 0.5em;
+}
+
+#alert {
+  font-weight: bold;
+  border: 1.5px solid red;
+  border-radius: 1em;
+}
+
+#inputName {
+  margin-bottom: 5%;
+}
+
+#inputEmail {
+  margin-bottom: 5%;
+}
+
+#inputPassword {
+  margin-bottom: 5%;
+}
+
+#error {
+  color: rgb(190, 18, 18)
+}
+
+#signup-btn {
+  font-weight: bold;
+  padding: 2%;
+  background: -webkit-linear-gradient(#0606c3, #87a2ae);
+}
+
+#signup-btn:hover {
+  background: -webkit-linear-gradient(#6b7e97, #e6e9eb);
+  transition: all 0.3s ease-in-out;
+  width: 20%;
+  color: black;
+}
+
+#back-btn {
+  background: -webkit-linear-gradient(#6b7e97, #e6e9eb);
+  font-weight: bold;
+  padding: 2%;
+}
+
+#back-btn:hover {
+  background: -webkit-linear-gradient(#c30606, #dfbcbc);
+  transition: all 0.3s ease-in-out;
+  width: 20%;
+}
+
+#embed-1 {
+  margin-bottom: 5%;
+}
+
+#embed-1 {
+  border-radius: 0.5em;
+}
+
+#header {
+
+  font-size: 175%;
+  border-radius: 0.5em;
+}
+
+.card {
+  border: none;
+}
+
+
+#logo {
+  width: 10%;
+}
+
+#banner {
+  width: 50%;
+  background: transparent;
+  justify-content: center;
+}
+
+#purpose_row {
+  margin: 2%;
+  width: 50%;
+}
+
+#input-log {
+  margin-bottom: 5%;
+}
+
+#purpose {
+  width: 100%;
+  background-color: transparent;
+}
+
+#subscribe {
+  width: 35%;
+  font-weight: bold;
+}
+
+#purpose_title {
+  font-size: 300%;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#e96915, #f0e476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#purpose_text {
+  font-size: 175%;
+  font-weight: bold;
+}
+
+#purpose_logo {
+  width: 40%;
+  margin: 1%;
+}
+
+#tips_icon {
+  width: 10%;
+}
+
+#tips_icon_1 {
+  width: 5%;
+}
+
+#tips_title {
+  font-size: 200%;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#1153cf, #acd1f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#tips_text {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#vault_col {
+  margin: 2%;
+}
+
+#vault_icon {
+  width: 30%;
+}
+
+#vault_card {
+  width: 100%;
+  background-color: transparent;
+}
+
+#vault_title {
+  font-size: 300%;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#4299e0, #999a9b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 3%;
+}
+
+#vault_text {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+#count_btn {
+  width: 35%;
+  font-weight: bold;
+}
+
+#home {
+  color:#0606c3;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+#home-icon {
+  margin-right: 2%;
+}
+
+#login-btn:hover {
+  color:rgb(6, 6, 195);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+}
+
+#logs-btn:hover {
+  color:rgb(6, 6, 195);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+}
+
+#home:hover {
+  color:rgb(6, 6, 195);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+}
+
+#login {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  font-size: 90%;
+}
+
+#login-icon {
+  margin-right: 2%;
+  color: rgb(6, 6, 195);
+}
+
+#login:hover {
+  color: #87a2ae;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+}
+
+#signup {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  font-size: 90%;
+}
+
+#signup-icon {
+  margin-right: 2%;
+}
+
+#signup:hover {
+  color: #87a2ae;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+}
+
+#resources {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  font-size: 90%;
+}
+
+#resources-icon {
+  margin-right: 2%;
+}
+
+#resources:hover {
+  color: #87a2ae;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+}
+
+#testimonials {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  font-size: 90%;
+}
+
+#testimonials-icon {
+  margin-right: 2%;
+}
+
+#testimonials:hover {
+  color: #87a2ae;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+}
+
+#vault {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  font-size: 90%;
+}
+
+#vault-icon {
+  margin-right: 2%;
+}
+
+#vault:hover {
+  color: #87a2ae;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+}
+
+#footer-card {
+  background: none;
+  border: none;
+  
+}
+
+#footer-title {
+  font-size: 50%;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#footer {
+  border-radius: 0.5em;
+  width: 100%;
+  height: fit-content;
+}
+
+#yelp {
+  color: #D22222;
+  font-size: 200%;
+}
+
+#twitter {
+  font-size: 200%;
+}
+
+#twitter:hover {
+  transition: all 0.3s ease-in-out;
+  color: rgba(128, 128, 128, 0.506);
+  font-size: 175%;
+}
+
+#insta {
+  color:  rgb(94, 79, 125);
+  font-size: 200%;
+}
+
+#insta:hover {
+  color: rgba(128, 128, 128, 0.506);
+  transition: all 0.3s ease-in-out;
+  font-size: 175%;
+}
+
+#yelp:hover {
+  transition: all 0.3s ease-in-out;
+  color: rgba(128, 128, 128, 0.506);
+  font-size: 175%;
+}
+
+#icon-link {
+  margin: 0;
+}
+
+#royal-icon {
+  width: 15%;
+  margin: 1%;
+}
+
+#nav {
+  width: 100%;
+}
+
+#login-un {
+  margin-bottom: 5%;
+}
+
+#login-pw{
+  margin-bottom: 5%;
+}
+
+#footer-bold {
+  margin-bottom: 1%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.accordion {
+  background-color: #eee;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  #home {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+  
+  #resources{
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #vault {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #testimonials {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #login {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #signup {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #logo {
+    width: -10%;
+    float:right
+  }
+
+  #yelp {
+    font-size: 100%;
+  }
+
+  #twitter {
+    font-size: 100%;
+  }
+
+  #insta {
+    font-size: 100%;
+  }
+
+  #footer {
+    height: fit-content;
+  }
+
+  #embed-1 {
+    width: 100%;
+  }
+
+  #embed {
+    height: 300px;
+    margin-bottom: 40%;
+  }
+  .accordion {
+    background-color: transparent;
+  }
+
+  #footer-bold{
+    font-size: 70%;
+  }
+
+  #royal-icon {
+    width: 12.5%;
+  }
+
+  #purpose_title {
+    font-size: 85%;
+  }
+
+  #tips_title {
+    font-size: 85%;
+  }
+
+  #vault_title {
+    font-size: 85%;
+  }
+
+  #purpose_text {
+    font-size: 65%;
+  }
+
+  #subscribe{
+    font-size: 50%;
+  }
+
+  #tips_text {
+    font-size: 65%;
+  }
+
+  #vault_text {
+    font-size: 65%;
+  }
+
+  #count_btn {
+    font-size: 50%;
+    margin-top: 10%;
+  }
+}
