@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/Costco-Roscoes-Liquor/static/css/main.ade90e45.css",
-    "main.js": "/Costco-Roscoes-Liquor/static/js/main.c1d6e7c9.js",
-    "static/media/logo.svg": "/Costco-Roscoes-Liquor/static/media/logo.c9f654a4c27d62f0d992d8722cf6365b.svg",
+    "main.css": "/Costco-Roscoes-Liquor/static/css/main.bb32ae4f.css",
+    "main.js": "/Costco-Roscoes-Liquor/static/js/main.14677ecc.js",
+    "static/media/nav_logo.svg": "/Costco-Roscoes-Liquor/static/media/nav_logo.5eefc26964917e80aa5564e04b3f6b8d.svg",
+    "static/media/login.svg": "/Costco-Roscoes-Liquor/static/media/login.fb0498c91442cc8cfb727fd13c7f2c8c.svg",
+    "static/media/logout.svg": "/Costco-Roscoes-Liquor/static/media/logout.ceaa50631536ecf39477afe283b7f993.svg",
+    "static/media/shell_bg.svg": "/Costco-Roscoes-Liquor/static/media/shell_bg.a892cbb6635f85f088fe.svg",
+    "static/media/favicon.svg": "/Costco-Roscoes-Liquor/static/media/favicon.dc75219af3f061cd4546290513e7e531.svg",
     "index.html": "/Costco-Roscoes-Liquor/index.html",
-    "main.ade90e45.css.map": "/Costco-Roscoes-Liquor/static/css/main.ade90e45.css.map",
-    "main.c1d6e7c9.js.map": "/Costco-Roscoes-Liquor/static/js/main.c1d6e7c9.js.map"
+    "main.bb32ae4f.css.map": "/Costco-Roscoes-Liquor/static/css/main.bb32ae4f.css.map",
+    "main.14677ecc.js.map": "/Costco-Roscoes-Liquor/static/js/main.14677ecc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ade90e45.css",
-    "static/js/main.c1d6e7c9.js"
+    "static/css/main.bb32ae4f.css",
+    "static/js/main.14677ecc.js"
   ]
 }
