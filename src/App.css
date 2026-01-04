@@ -27,6 +27,7 @@
   width: 25%;
   border: none;
   border-radius: 0.5em;
+  background-color: transparent;
 }
 
 #alert {
@@ -143,11 +144,33 @@
 }
 
 #tips_icon {
-  width: 10%;
+  width: 20%;
 }
 
 #tips_icon_1 {
   width: 5%;
+}
+
+#tips_icon:hover {
+  color:rgb(6, 6, 195);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
+}
+
+#login_icon {
+  width: 10%;
+}
+
+#logout_icon {
+  width: 15%;
+}
+
+#logout-btn:hover {
+  color:rgb(6, 6, 195);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
 }
 
 #tips_title {
@@ -203,6 +226,29 @@
 
 #home-icon {
   margin-right: 2%;
+  width: 125%;
+}
+
+#close-btn {
+  color: #c30606;
+}
+
+#un_label {
+  margin-right: 5%;
+}
+
+#un_icon {
+  color: rgb(189, 194, 200);
+  font-size: 30pt;
+}
+
+#pw_label {
+  margin-right: 5%;
+}
+
+#pw_icon {
+  color: rgb(189, 194, 200);
+  font-size: 30pt;
 }
 
 #login-btn:hover {
@@ -367,12 +413,16 @@
 }
 
 #royal-icon {
-  width: 15%;
-  margin: 1%;
+  width: 10%;
 }
 
 #nav {
-  width: 100%;
+  width: 75%;
+}
+
+#navbar {
+  background: transparent;
+  border-radius: 0.5em;
 }
 
 #login-un {
@@ -470,7 +520,7 @@
   }
 
   #footer {
-    height: fit-content;
+    height: max-content;
   }
 
   #embed-1 {

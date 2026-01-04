@@ -8,8 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('https://res.cloudinary.com/dhqsixgmo/image/upload/v1765103972/liquor_bg_lukw3q.svg');
-  background-size: cover;
+  background-image: url('./images/shell_bg.svg');
+  background-size: auto;
 }
 
 code {
@@ -350,6 +350,7 @@ h4 {
 
 h5 {
   font-size: 1.25rem;
+  text-align: center;
 }
 
 h6 {
@@ -369,9 +370,9 @@ dl {
   margin-bottom: 1rem;
 }
 
-label {
-  display: inline-block;
-}
+// label {
+//   display: inline-block;
+// }
 
 input,
 select,
