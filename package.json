@@ -1,7 +1,7 @@
 {
   "name": "costco-roscoes-liquor",
   "version": "1.0.0",
-  "homepage": "https://aasports89.github.io/Costco-Roscoes-Liquor/",
+  "homepage": "https://aasports89.github.io/Bloomington-Mini-Mart/",
   "main": "server.js",
   "type": "module",
   "dependencies": {
@@ -59,7 +59,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AASports89/Costco-Roscoes-Liquor.git"
+    "url": "https://aasports89.github.io/Bloomington-Mini-Mart.git"
   },
   "keywords": [],
   "author": "",
